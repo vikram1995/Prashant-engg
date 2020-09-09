@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: absolute;
+}
+
+.content{
+    margin-top: 5%;
+}
+
+ion-icon{
+    color: black;
+   
+}
+/*-----------header start---------------*/
+
+
+
+.nav-wrap{
+    position: absolute;
+    left: 57%;
+}
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    color: white !important;    
+}
+
+
+
+
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(./img/PRAHASTHA\ ENG\ SERVICES-hero-images.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-main-text{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    color: white;
+}
+.btn-outline-secondary {
+    color: #fff;
+    border-color: #fff;
+    border-radius: 0%;
+}
+
+.btn-outline-secondary::hover {
+    color: #fff;
+    border-color: #fff;
+}
+.hero-main-text h1{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+/*-----------header end---------------*/
+
+/*-----------About section start---------------*/
+
+.about-us{
+    overflow: hidden;
+    margin: 8%;
+    margin-top: 4%;
+    
+    
+}
+.about-us h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid #B4C0C7; 
+    line-height: 0.1em;
+    margin: 10px 0 40px;   
+ } 
+ 
+ .about-us h2 span { 
+    
+     background:#fff; 
+     padding:0 10px; 
+     font-size: 0.8em;
+     font-weight: 100;
+     color: #282725;
+ }
+
+ .about-us h1{
+     color: #3D9AA2;
+     font-size: 3.5em;
+ }
+
+ .about-us p{
+     font-size: 1.5em;
+     text-align: justify;
+ }
+
+ .horizantal-line{
+     width: 50%;
+     margin: 0 auto;
+ }
+
+ /*-----------About Section End---------------*/
+
+ /*----------- what we do Section starts ---------------*/
+
+ .what-we-do{
+     background-color: #3D99A2;
+     padding-top: 4%;
+     padding-bottom: 4%;
+ }
+ .what-we-do h2 {
+    width: 100%;
+    text-align: center; 
+    border-bottom: 2px solid #FEC919; 
+    line-height: 0.1em;
+    margin: 10px 0 40px;   
+ } 
+ 
+ .what-we-do h2 span { 
+    
+     background:#3D99A2; 
+     padding:0 10px; 
+     font-size: 0.8em;
+     font-weight: 100;
+     color:white;
+ }
+
+ .what-we-do h1{
+     text-align: center;
+     color: white;
+     font-size: 3.5em;
+ }
+ .cards{
+     width: 100%;
+     padding: 0 7%;
+     
+ }
+ .card{
+     border: none;
+     color: white;
+
+
+ }
+.card-title{
+    color:#FEC919 ;
+}
+ .card-body{
+     background-color: #3D99A2;
+ }
+ .card-body p{
+     text-align: justify;
+ }
+
+
+
+ /*----------- what we do Section ends ---------------*/
+
+
+
+
+
+
+  /*----------- Contact-us start ---------------*/
+
+
+  .contact-us{
+      padding-top: 4%;
+      text-align: center;
+      padding-left: 8%;
+      padding-right: 8%;
+  }
+  .contact-us p{
+      font-size: 1.5em;
+  }
+.contact-us h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid #B4C0C7; 
+    line-height: 0.1em;
+    margin: 10px 0 40px;   
+ } 
+ 
+ .contact-us h2 span { 
+    
+     background:#fff; 
+     padding:0 10px; 
+     font-size: 0.8em;
+     font-weight: 100;
+     color: #282725;
+ }
+
+.contact-us h1{
+    color: #3D9AA2;
+    font-size: 3.5em;
+}
+
+.address{
+    text-align: center;
+    padding-top: 4%;
+}
+
+
+
+
+  .map{
+      padding: 2%;
+  }
+
+  .rights{
+      text-align: center;
+  }
+  /*----------- Contact-us end ---------------*/
+
+
+
+  /*<!--social media icons -->*/
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .whatsapp{
+      background: #009946;
+      color: white;
+      
+  }
+
+/*<!--social media icons -->*/
